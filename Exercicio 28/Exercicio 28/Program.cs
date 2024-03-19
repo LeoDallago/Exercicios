@@ -10,7 +10,7 @@
             {
                 for (int i = 0; i <= 10; i++)
                 {
-                    Console.WriteLine($"{i}x{j} = {i * j}");
+                    Console.Write($"{i}x{j} = {i * j}");
                 }
                 Console.Write("\n");
             }
