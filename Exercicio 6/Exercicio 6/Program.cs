@@ -15,7 +15,7 @@
              decimal convercao = (temperaturaValor - 32) * 5 / 9 ;
 
             Console.WriteLine($"a temperatura em celsius eh: {convercao}");
-
+           
 
             //Não remover esta linha (manter console aberto)
             Console.ReadLine();
