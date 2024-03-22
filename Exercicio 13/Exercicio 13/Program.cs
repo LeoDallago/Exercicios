@@ -7,12 +7,19 @@
             Console.WriteLine("Exercicio 13");
 
             Console.WriteLine("Por favor, informe a quantidade de PAES vendidos: ");
-            string paes = Console.ReadLine();
-            decimal paesQuantidade = Convert.ToDecimal(paes);
-
+            decimal paesQuantidade = Convert.ToDecimal(Console.ReadLine());
+            
             Console.WriteLine("Por favor, informe a quantidade de BROAS vendidas : ");
-            string broas = Console.ReadLine();
-            decimal broasQuantidade = Convert.ToDecimal(broas);
+            decimal broasQuantidade = Convert.ToDecimal(Console.ReadLine());
+
+
+            CalculoArrecadacao(paesQuantidade,broasQuantidade);
+
+            //Mantem o programa aberto (nao apagar)
+            Console.ReadLine();
+        }
+
+        static void CalculoArrecadacao(decimal paesQuantidade, decimal broasQuantidade){
 
             decimal paesValor = 0.12m;
             decimal broasValor = 1.50m;
@@ -23,8 +30,6 @@
 
             Console.WriteLine($"A ARRECADACAO foi de {arrecadacao} e a sua POUPANCA eh de {poupanca}");
 
-            //Mantem o programa aberto (nao apagar)
-            Console.ReadLine();
         }
     }
 }

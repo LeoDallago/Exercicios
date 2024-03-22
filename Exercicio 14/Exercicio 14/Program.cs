@@ -10,8 +10,7 @@
             string nome = Console.ReadLine();
             
             Console.WriteLine("Por favor, informe a sua IDADE : ");
-            string idade = Console.ReadLine();
-            int idadeValor = Convert.ToInt32(idade);
+            int idadeValor = Convert.ToInt32(Console.ReadLine());
 
             int diasDeVida = idadeValor * 365;
 
