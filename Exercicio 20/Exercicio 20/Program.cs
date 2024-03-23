@@ -7,8 +7,7 @@
             Console.WriteLine("Exercicio 20");
 
             Console.WriteLine("Por favor, informe o numero: ");
-            string numero = Console.ReadLine();
-            int numeroValor = Convert.ToInt32(numero);
+            int numeroValor = Convert.ToInt32(Console.ReadLine());
 
           if(numeroValor % 2 == 0 ) 
             {

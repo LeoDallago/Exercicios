@@ -7,8 +7,7 @@
             Console.WriteLine("Exercicio 16");
 
             Console.WriteLine("Por favor, informe o salario INICIAL: ");
-            string salarioInicial = Console.ReadLine();
-            decimal salarioInicialValor = Convert.ToDecimal(salarioInicial);
+            decimal salarioInicialValor = Convert.ToDecimal(Console.ReadLine());
 
             decimal aumento = 0.15m * salarioInicialValor;
 

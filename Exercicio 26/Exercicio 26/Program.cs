@@ -7,8 +7,7 @@
             Console.WriteLine("Exercicio 26");
 
             Console.WriteLine("Por favor, informe um numero");
-            string numero = Console.ReadLine();
-            int numeroValor = Convert.ToInt32(numero);
+            int numeroValor = Convert.ToInt32(Console.ReadLine());
 
             int soma = 0;
             int valor1 = 1;

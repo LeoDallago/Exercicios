@@ -9,25 +9,21 @@ namespace Exercicio_9
             Console.WriteLine("Exercicio 9");
 
             Console.WriteLine("Informe a nota 1 :");
-            string nota1 = Console.ReadLine();
-            decimal nota1Valor = Convert.ToDecimal(nota1);
+            decimal nota1Valor = Convert.ToDecimal(Console.ReadLine());
 
             Console.WriteLine("Informe a nota 2 :");
-            string nota2 = Console.ReadLine();
-            decimal nota2Valor = Convert.ToDecimal(nota2);
+            decimal nota2Valor = Convert.ToDecimal(Console.ReadLine());
 
             Console.WriteLine("Informe a nota 3 :");
-            string nota3 = Console.ReadLine();
-            decimal nota3Valor = Convert.ToDecimal(nota3);
+            decimal nota3Valor = Convert.ToDecimal(Console.ReadLine());
 
             Console.WriteLine("Informe a nota 4 :");
-            string nota4 = Console.ReadLine();
-            decimal nota4Valor = Convert.ToDecimal(nota4);
+            decimal nota4Valor = Convert.ToDecimal(Console.ReadLine());
 
          
             decimal conta = 4 / ((1 / nota1Valor) + (1 / nota2Valor) + (1 / nota3Valor) + (1 / nota4Valor));
 
-            Console.WriteLine($"o resultado eh {conta}");
+            Console.WriteLine($"o resultado eh {conta.ToString("N2")}");
 
 
             Console.ReadLine();

@@ -7,8 +7,7 @@
             Console.WriteLine("Exercicio 5");
 
             Console.WriteLine("Por favor, informe o raio da esfera:");
-            string raio = Console.ReadLine();
-            decimal raioValor = Convert.ToDecimal(raio);
+            decimal raioValor = Convert.ToDecimal(Console.ReadLine());
 
             decimal raio3 = raioValor * raioValor * raioValor;
 

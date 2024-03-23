@@ -7,12 +7,10 @@
             Console.WriteLine("Exercicio 3");
 
             Console.WriteLine("Por favor, informe o raio da cilindro:");
-            string raio = Console.ReadLine();
-            decimal raioValor = Convert.ToDecimal(raio);
+            decimal raioValor = Convert.ToDecimal(Console.ReadLine());
 
             Console.WriteLine("Por favor, informe a altura da cilindro:");
-            string altura = Console.ReadLine();
-            decimal alturaValor = Convert.ToDecimal(altura);
+            decimal alturaValor = Convert.ToDecimal(Console.ReadLine());
 
             decimal raio2 = raioValor * raioValor;
 

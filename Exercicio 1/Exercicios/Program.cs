@@ -12,8 +12,6 @@
             decimal largura = ObterValor("Informe a Largura");
             decimal altura = ObterValor("Informe a Altura");
 
-            /*  decimal volume = 0; */
-
             decimal volume = CalculaVolume(comprimento, largura, altura);
 
             Console.WriteLine($"O valume eh: {volume}");

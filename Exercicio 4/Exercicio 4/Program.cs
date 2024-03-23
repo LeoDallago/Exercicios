@@ -7,16 +7,13 @@
             Console.WriteLine("Exercicio 4");
 
             Console.WriteLine("Por favor, informe a quilometragem inicial:");
-            string kmInicial = Console.ReadLine();
-            decimal kmInicialValor = Convert.ToDecimal(kmInicial);
+            decimal kmInicialValor = Convert.ToDecimal(Console.ReadLine());
 
             Console.WriteLine("Por favor, informe a quilometragem final:");
-            string kmFinal = Console.ReadLine();
-            decimal kmFinallValor = Convert.ToDecimal(kmFinal);
+            decimal kmFinallValor = Convert.ToDecimal(Console.ReadLine());
 
             Console.WriteLine("Por favor, informe o consumo de combustivel:");
-            string consumo = Console.ReadLine();
-            decimal consumoValor = Convert.ToDecimal(consumo);
+            decimal consumoValor = Convert.ToDecimal(Console.ReadLine());
 
             decimal consumoFinal = kmInicialValor - kmFinallValor / consumoValor;
 

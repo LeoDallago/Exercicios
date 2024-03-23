@@ -8,8 +8,7 @@ namespace Exercicio_24
             Console.WriteLine("Exercicio 24");
 
             Console.WriteLine("Por favor, informe um numero:");
-            string numero = Console.ReadLine();
-            int numeroValor = Convert.ToInt32(numero);
+            int numeroValor = Convert.ToInt32(Console.ReadLine());
 
             if (numeroValor >=1 && numeroValor <=10) {
                 for (int i = 100; i <= 10; i++)

@@ -7,12 +7,10 @@
             Console.WriteLine("Exercicio 12");
 
             Console.WriteLine("Por favor, informe o COMPRIMENTO da area: ");
-            string comprimento = Console.ReadLine();
-            decimal comprimentoValor = Convert.ToDecimal(comprimento);
+            decimal comprimentoValor = Convert.ToDecimal(Console.ReadLine());
 
             Console.WriteLine("Por favor, informe a LARGURA da area: ");
-            string largura = Console.ReadLine();
-            decimal larguraValor = Convert.ToDecimal(largura);
+            decimal larguraValor = Convert.ToDecimal(Console.ReadLine());
 
             decimal area = comprimentoValor * larguraValor;
 

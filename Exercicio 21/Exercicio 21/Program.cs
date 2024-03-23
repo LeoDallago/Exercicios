@@ -7,13 +7,10 @@
             Console.WriteLine("Exercicio 21");
 
             Console.WriteLine("Por favor, informe o PRIMEIRO numero: ");
-            string primeiro = Console.ReadLine();
-            int primeiroValor = Convert.ToInt32(primeiro);
-
+            int primeiroValor = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Por favor, informe o SEGUNDO numero: ");
-            string segundo = Console.ReadLine();
-            int segundoValor = Convert.ToInt32(segundo);
+            int segundoValor = Convert.ToInt32(Console.ReadLine());
 
             int terceiro;
 
